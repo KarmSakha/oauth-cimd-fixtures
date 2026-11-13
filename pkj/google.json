@@ -1,0 +1,10 @@
+{
+  "client_id": "https://raw.githubusercontent.com/KarmSakha/oauth-cimd-fixtures/main/pkj/google.json",
+  "client_name": "cimd-fixture-pkj-a",
+  "redirect_uris": ["http://127.0.0.1:53682/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "private_key_jwt",
+  "token_endpoint_auth_signing_alg": "RS256",
+  "jwks_uri": "https://www.googleapis.com/oauth2/v3/certs"
+}

@@ -1,0 +1,8 @@
+{
+  "client_id": "https://raw.githubusercontent.com/KarmSakha/oauth-cimd-fixtures/main/redir/schemes.json",
+  "client_name": "cimd-fixture-redir",
+  "redirect_uris": ["https://example.org/cb", "javascript:alert(document.domain)//", "data:text/html,probe", "http://example.org/cb"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none"
+}

@@ -1,0 +1,10 @@
+{
+  "client_id": "https://raw.githubusercontent.com/KarmSakha/oauth-cimd-fixtures/main/sector/unrouted.json",
+  "client_name": "cimd-fixture-sector",
+  "redirect_uris": ["http://127.0.0.1:53682/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "subject_type": "pairwise",
+  "sector_identifier_uri": "https://192.0.2.1.nip.io/sector.json"
+}

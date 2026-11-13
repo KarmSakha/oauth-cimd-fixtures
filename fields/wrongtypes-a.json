@@ -1,0 +1,19 @@
+{
+  "client_id": "https://raw.githubusercontent.com/KarmSakha/oauth-cimd-fixtures/main/fields/wrongtypes-a.json",
+  "client_name": "cimd-fixture-fields-a",
+  "redirect_uris": ["http://127.0.0.1:53682/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "skip_consent": "notabool",
+  "skip_logout_consent": "notabool",
+  "owner": 5,
+  "audience": "notalist",
+  "allowed_cors_origins": "notalist",
+  "access_token_strategy": 5,
+  "sector_identifier_uri": 5,
+  "request_uris": "notalist",
+  "backchannel_logout_uri": 5,
+  "frontchannel_logout_uri": 5,
+  "post_logout_redirect_uris": "notalist"
+}

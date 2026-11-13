@@ -1,0 +1,15 @@
+{
+  "client_id": "https://raw.githubusercontent.com/KarmSakha/oauth-cimd-fixtures/main/fields/wrongtypes-b.json",
+  "client_name": "cimd-fixture-fields-b",
+  "redirect_uris": ["http://127.0.0.1:53682/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "client_uri": 5,
+  "logo_uri": 5,
+  "tos_uri": 5,
+  "policy_uri": 5,
+  "contacts": "notalist",
+  "scope": 5,
+  "jwks_uri": 5
+}
